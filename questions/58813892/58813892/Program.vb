@@ -37,7 +37,8 @@ Module Program
         }
 
         Dim json = JsonConvert.SerializeObject(holder, Formatting.Indented)
-
+        Console.WriteLine(json)
+        Console.Readline()
     End Sub
 
 

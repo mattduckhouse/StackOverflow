@@ -1,0 +1,31 @@
+{
+  "GridProperties": {
+    "myGridControl": {
+      "Properties": {
+        "Number": {
+          "SortIndex": -1,
+          "SortOrder": 0,
+          "Width": 66.0,
+          "VisibleIndex": 11,
+          "Visible": true
+        },
+        "Active": {
+          "SortIndex": -1,
+          "SortOrder": 0,
+          "Width": 21.0,
+          "VisibleIndex": 9,
+          "Visible": true
+        },
+        "I": {
+          "SortIndex": -1,
+          "SortOrder": 0,
+          "Width": 21.0,
+          "VisibleIndex": 4,
+          "Visible": true
+        }
+      }
+    }
+  },
+  "MDISize": "1243,602",
+  "MDILocation": "50,50"
+}

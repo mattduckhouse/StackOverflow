@@ -14,7 +14,8 @@ namespace ConsoleApp51
             var json = File.ReadAllText("test.json");
             var rootObject = JsonConvert.DeserializeObject<WindowPropertiesM>(json);
 
-            Console.WriteLine(rootObject.GridProperties.First().Value.Properties.Count);
+            Console.WriteLine(rootObject.GridProperties.First().Value.Properties.Count); // Should be 3 (and is)
+            Console.WriteLine(rootObject.GridProperties.First().Value.Properties.First().Value.Width); // Should be 66 (and is)
         }
     }
 
